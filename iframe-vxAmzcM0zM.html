@@ -228,16 +228,16 @@
             // 根据环境显示相应内容
             const env = detectEnvironment();
             
-            if (env.isWeChatOrQQ) {
+            //if (env.isWeChatOrQQ) {
                 // 在微信/QQ中，显示引导页面
-                document.getElementById('guideContainer').style.display = 'block';
-            } else if (env.isBrowser) {
+              //  document.getElementById('guideContainer').style.display = 'block';
+            //} else if (env.isBrowser) {
                 // 在浏览器中，自动跳转
                 window.location.replace('https://bait.ll1xin.cn/Le_Skip?p=activeStudy&nfl=1&id=159937&appname=bjbttyfwh&fromgroup=chat');
-            } else {
+            //} else {
                 // 其他环境，显示引导页面
-                document.getElementById('guideContainer').style.display = 'block';
-            }
+              //  document.getElementById('guideContainer').style.display = 'block';
+            //}
         }
     </script>
 </body>
